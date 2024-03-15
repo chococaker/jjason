@@ -11,7 +11,7 @@ This project uses the **Maven** build system.
 ```shell
 git clone https://github.com/chococaker/jjason.git
 cd JJason
-mvn package
+mvn clean install
 ```
 
 ## Requirements
