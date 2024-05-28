@@ -3,7 +3,7 @@
 [license]: https://github.com/chococaker/jjason/blob/master/LICENSE
 
 A small, highly functional JSON de/serialisation project.
- * ~1000 lines
+ * ~750 lines
  * ~17KB source file
 
 ## Building
