@@ -14,6 +14,15 @@ cd JJason
 mvn clean install
 ```
 
+To include in your Maven project:
+```xml
+<dependency>
+  <groupId>net.chococaker</groupId>
+  <artifactId>jjason</artifactId>
+  <version>1.0</version>
+</dependency>
+```
+
 ## Requirements
 Java 8+. JJason has no extra dependencies, so no need to import any.
 
