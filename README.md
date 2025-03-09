@@ -2,7 +2,7 @@
 
 [license]: https://github.com/chococaker/jjason/blob/master/LICENSE
 
-A small, minimally functional JSON de/serialisation project.
+A small, minimal, and functional JSON de/serialisation project.
  * ~750 lines
  * ~17KB source file
 
