@@ -137,15 +137,15 @@ public final class JsonPrimitive implements JsonElement {
     }
     
     public int getAsInt() {
-        return getAs(int.class);
+        return getAs(Integer.class);
     }
     
     public double getAsDouble() {
-        return getAs(double.class);
+        return getAs(Double.class);
     }
     
     public long getAsLong() {
-        return getAs(long.class);
+        return getAs(Long.class);
     }
     
     public BigDecimal getAsBigDecimal() {
@@ -169,6 +169,7 @@ public final class JsonPrimitive implements JsonElement {
         try {
             return type.cast(object);
         } catch (ClassCastException e) {
+            e.printStackTrace();
             throw new IllegalStateException("Wrapped object is not instance of " + type.getName());
         }
     }
